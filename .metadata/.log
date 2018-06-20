@@ -1,0 +1,197 @@
+!SESSION 2013-09-27 08:06:20.625 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2013-09-27 08:08:47.968
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-27 08:08:47.968
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,Activate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a5948f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bc7316,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:08:58.656
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.093
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.140
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.156
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.187
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.218
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.421
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.468
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.500
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.515
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.562
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-09-27 08:09:07.593
+!MESSAGE Installed snippet library: C:\Documents and Settings\User\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-09-27 08:09:13.718
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-09-27 08:09:13.718
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2013-09-27 08:09:13.718
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-09-27 08:09:13.718
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-09-27 08:09:13.718
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.703
+!MESSAGE \org\hibernate\hibernate\3.3.2\hibernate-3.3.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.703
+!MESSAGE \org\eclipse\persistence\javax.persistence\1.0.0\javax.persistence-1.0.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.781
+!MESSAGE \myeclipse-reports\viewservlets\2.5.0\viewservlets-2.5.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.781
+!MESSAGE \myeclipse-reports\viewservlets\2.3.0\viewservlets-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.781
+!MESSAGE \myeclipse-reports\viewservlets\2.2.0\viewservlets-2.2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.781
+!MESSAGE \myeclipse-reports\scriptapi\2.3.0\scriptapi-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.781
+!MESSAGE \myeclipse-reports\scriptapi\2.2.0\scriptapi-2.2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.781
+!MESSAGE \myeclipse-reports\odadesignapi\2.5.2\odadesignapi-2.5.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\modelodaapi\2.3.0\modelodaapi-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\modelapi\2.3.0\modelapi-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\modelapi\2.2.0\modelapi-2.2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\engineapi\2.5.0\engineapi-2.5.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\engineapi\2.3.0\engineapi-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\engineapi\2.2.0\engineapi-2.2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\emitterconfig\2.5.2\emitterconfig-2.5.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\dteapi\2.5.2\dteapi-2.5.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\dteapi\2.3.0\dteapi-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\dteapi\2.2.0\dteapi-2.2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.796
+!MESSAGE \myeclipse-reports\dataextraction\2.3.0\dataextraction-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\dataaggregationapi\2.5.0\dataaggregationapi-2.5.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\dataadapterapi\2.5.2\dataadapterapi-2.5.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\dataadapterapi\2.3.0\dataadapterapi-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\dataadapterapi\2.2.0\dataadapterapi-2.2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\coreapi\2.5.2\coreapi-2.5.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\coreapi\2.3.0\coreapi-2.3.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\coreapi\2.2.0\coreapi-2.2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\chartitemapi\2.5.2\chartitemapi-2.5.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\chartitemapi\2.5.0\chartitemapi-2.5.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.812
+!MESSAGE \myeclipse-reports\chartengineapi\2.5.2\chartengineapi-2.5.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse-reports\chartengineapi\2.2.0\chartengineapi-2.2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse\pluto-taglib\2.0\pluto-taglib-2.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse\pluto-taglib\1.0.1\pluto-taglib-1.0.1.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse\org.eclipse.emf.ecore.xmi\2.5.0\org.eclipse.emf.ecore.xmi-2.5.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse\org.eclipse.emf.ecore.xmi\2.4.0\org.eclipse.emf.ecore.xmi-2.4.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse\org.eclipse.emf.ecore.xmi\2.2.2\org.eclipse.emf.ecore.xmi-2.2.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse\org.eclipse.emf.ecore\2.2.2\org.eclipse.emf.ecore-2.2.2.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse\org.eclipse.emf.common\2.2.1\org.eclipse.emf.common-2.2.1.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.828
+!MESSAGE \myeclipse\flute\1.0\flute-1.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.843
+!MESSAGE \javax\jms\jms\1.1\jms-1.1.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.843
+!MESSAGE \javassist\javassist\3.9.0\javassist-3.9.0.pom error in opening zip file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-09-27 08:09:37.843
+!MESSAGE \com\sun\webservices-rt\1.1\webservices-rt-1.1.pom error in opening zip file

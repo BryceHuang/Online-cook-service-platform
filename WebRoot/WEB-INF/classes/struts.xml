@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.action.excludePattern" value="/ws/.*,ws://.*"></constant>
+	<constant name="struts.objectFactory" value="spring"></constant>
+	<package name="my" namespace="/" extends="struts-default">		
+	</package>
+	<!--......................cook的action ...............................-->
+	
+	<package name="cook" namespace="/cook" extends="json-default">
+		<action name="getOnlineOrderAction2" class="ofs.action.CookDataAction" method="getOnlineOrders">  
+            <result name="success" type="json">  
+                <param name="root">jsonData</param>                 
+            </result>  
+        </action>
+		<action name="getOnlineAction" class="ofs.action.CookDataAction" method="getOnlineOrders2">  
+            <result name="success" type="json">  
+                <param name="root">onlineOrder</param>                 
+            </result>  
+        </action>   
+        <action name="getMyRecievedOrder" class="ofs.action.CookDataAction" method="getMyRecievedOrder">  
+            <result name="success" type="json">  
+                <param name="root">recievedOrder</param>                 
+            </result>  
+        </action>   
+        <action name="getMyServingOrder" class="ofs.action.CookDataAction" method="getMyServingOrder">  
+            <result name="success" type="json">  
+                <param name="root">servingOrder</param>                 
+            </result>  
+        </action> 
+        <action name="getMyHistroyOrder" class="ofs.action.CookDataAction" method="getMyHistroyOrder">  
+            <result name="success" type="json">  
+                <param name="root">histroyOrder</param>                 
+            </result>  
+        </action> 
+        <action name="getMyScoringOrder" class="ofs.action.CookDataAction" method="getMyScoringOrder">  
+            <result name="success" type="json">  
+                <param name="root">scoringOrders</param>                 
+            </result>  
+        </action>   
+        <action name="getMyMessageAction" class="ofs.action.CookDataAction" method="MyMessage">  
+            <result name="success" type="json">  
+                <param name="root">messageData</param>                   
+            </result>  
+     </action> 
+      <action name="getAllOrderAction" class="ofs.action.CookDataAction" method="getMyAllOrder">  
+            <result name="success" type="json">  
+                <param name="root">allOrders</param>                   
+            </result>  
+     </action> 
+     <action name="getMoneyRecordAction" class="ofs.action.CookDataAction" method="MyHistoryMoneyRecord">  
+            <result name="success" type="json">  
+                <param name="root">moneyHistroyData</param>                   
+            </result>  
+     </action>          
+     <action name="getMyChaningOrderAction" class="ofs.action.CookDataAction" method="MyChangingOrder">  
+            <result name="success" type="json">  
+                <param name="root">changingData</param>                   
+            </result>  
+     </action>         
+	</package>
+	
+	<!--.................... user的action ...............................-->
+	<package name="user" namespace="/user" extends="json-default">
+	 <action name="getMyGoingOrderAction" class="ofs.action.UserDataAction" method="MyGoingOrder">  
+            <result name="success" type="json">  
+                <param name="root">jsonData</param>     
+            </result>  
+     </action> 
+     <action name="getMyDoneOrderAction" class="ofs.action.UserDataAction" method="MyDoneOrder">  
+            <result name="success" type="json">  
+                <param name="root">histroyData</param>                   
+            </result>  
+     </action> 
+     <action name="getMyScoringOrderAction" class="ofs.action.UserDataAction" method="MyScoringOrder">  
+            <result name="success" type="json">  
+                <param name="root">scoringData</param>                   
+            </result>  
+     </action>  
+     <action name="getMyNotRecievedOrderAction" class="ofs.action.UserDataAction" method="MyNotRecievedOrder">  
+            <result name="success" type="json">  
+                <param name="root">notRecievedData</param>                   
+            </result>  
+     </action>  
+     <action name="getMyNotServedOrderAction" class="ofs.action.UserDataAction" method="MyNotServedOrder">  
+            <result name="success" type="json">  
+                <param name="root">notServedData</param>                   
+            </result>  
+     </action> 
+     <action name="getMyNeedPayOrderAction" class="ofs.action.UserDataAction" method="MyNeedPayOrder">  
+            <result name="success" type="json">  
+                <param name="root">needPayData</param>                   
+            </result>  
+     </action> 
+     <action name="getMyServingOrderAction" class="ofs.action.UserDataAction" method="MyServingOrder">  
+            <result name="success" type="json">  
+                <param name="root">servingData</param>                   
+            </result>  
+     </action>  
+     <action name="getMyFinishedOrderAction" class="ofs.action.UserDataAction" method="MyFinishedOrder">  
+            <result name="success" type="json">  
+                <param name="root">finishedData</param>                   
+            </result>  
+     </action> 
+     <action name="getMyChangingOrderAction" class="ofs.action.UserDataAction" method="MyChangingOrder">  
+            <result name="success" type="json">  
+                <param name="root">changingData</param>                   
+            </result>  
+     </action> 
+     
+     <action name="getMyMoneyRecordAction" class="ofs.action.UserDataAction" method="MyHistoryMoneyRecord">  
+            <result name="success" type="json">  
+                <param name="root">moneyHistroyData</param>                   
+            </result>  
+     </action>   
+     <action name="getMyMessageAction" class="ofs.action.UserDataAction" method="MyMessage">  
+            <result name="success" type="json">  
+                <param name="root">messageData</param>                   
+            </result>  
+     </action>
+          
+	</package>
+	
+	<!--.................... admin的action ...............................-->
+	<package name="admin" namespace="/admin" extends="json-default">
+		<action name="getAllUsersAction" class="ofs.action.AdminDataAction" method="allUsers">  
+            <result name="success" type="json">  
+                <param name="root">usersData</param>  
+            </result>  
+        </action>   
+        
+        <action name="getAllCooksAction" class="ofs.action.AdminDataAction" method="allCooks">  
+            <result name="success" type="json">  
+                <param name="root">cooksData</param>  
+            </result>  
+        </action> 
+        <action name="getAllServersAction" class="ofs.action.AdminDataAction" method="allServers">  
+            <result name="success" type="json">  
+                <param name="root">serversData</param>  
+            </result>  
+        </action>  
+        <action name="getAllOrdersAction" class="ofs.action.AdminDataAction" method="allOrders">  
+            <result name="success" type="json">  
+                <param name="root">ordersData</param>  
+            </result>  
+        </action>               
+	</package>
+	
+	<!--.................... server的action ...............................-->
+	<package name="server" namespace="/server" extends="json-default">
+		<action name="getUserChangeOrder" class="ofs.action.ServerDataAction" method="getUserChangingOrder">
+			<result name="success" type="json">
+				<param name="root">userChangeOrder</param>
+			</result>
+		</action>
+		<action name="getCookChangeOrder" class="ofs.action.ServerDataAction" method="getCookChangingOrder">
+			<result name="success" type="json">
+				<param name="root">cookChangeOrder</param>
+			</result>
+		</action>
+		<action name="getCookByAduit" class="ofs.action.ServerDataAction" method="getCookByAduit">
+			<result name="success" type="json">
+				<param name="root">aduitCook</param>
+			</result>
+		</action>
+		<action name="getGroupServer" class="ofs.action.ServerDataAction" method="getServerByGroup">
+			<result name="success" type="json">
+				<param name="root">groupUser</param>
+			</result>
+		</action>
+		<action name="getMessage" class="ofs.action.ServerDataAction" method="getServerMessage">
+			<result name="success" type="json">
+				<param name="root">messageData</param>
+			</result>
+		</action>
+	</package>
+	
+	
+	
+	  
+	<package name="json-example" namespace="/json-example" extends="json-default">
+        <action name="JSONExample" class="ofs.action.StrutsJsonAction">
+            <result name="success" type="json"/>
+        </action>
+    </package>
+   
+</struts>    

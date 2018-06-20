@@ -1,0 +1,10 @@
+/* CSS Document */
+*{ margin:0; padding:0; list-style:none; }
+.clear{ clear:both; line-height:0; font-size:0; height:0;}
+
+#jswbox{width:700px; margin-top:-120px;margin-left:-30px;}
+#jswbox ul{position:relative;height:400px;}
+#jswbox li{position:absolute;width:0;height:0;z-index:0;cursor:pointer;overflow:hidden;top:12px; left:10px;}
+#jswbox li img{width:100%;height:100%;vertical-align:top; float:left; border:0;}
+#jswbox .prev, #jswbox .next{ display:none;}
+
